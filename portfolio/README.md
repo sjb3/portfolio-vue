@@ -1,4 +1,12 @@
-# portfolio
+# Portfolio: Vue-Way
+
+adopted from Traversy Media(youTube Tut');
+
+# portfolio - VueJs Way
+
+revamping pre-existing portfolio with VueJs
+
+Applying SPA concept with different theme;
 
 > A Vue.js project
 
