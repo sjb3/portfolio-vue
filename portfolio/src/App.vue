@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
+
+    <intro></intro>
+    <resume></resume>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello'
-
+import Intro from './components/Intro'
+import Resume from './components/Resume'
 export default {
   name: 'app',
   components: {
-    Hello
+    Intro,
+    Resume
   }
 }
 </script>
@@ -22,7 +24,11 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
+  background-color: #bc8d8d;
+
+  /*h1, h2 {
+  color: #green;
+}*/
 }
 </style>
