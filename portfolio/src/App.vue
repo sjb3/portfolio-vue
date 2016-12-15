@@ -3,17 +3,22 @@
 
     <intro></intro>
     <resume></resume>
+    <gallery></gallery>
+
   </div>
 </template>
 
 <script>
 import Intro from './components/Intro'
 import Resume from './components/Resume'
+import Gallery from './components/Gallery'
+
 export default {
   name: 'app',
   components: {
     Intro,
-    Resume
+    Resume,
+    Gallery
   }
 }
 </script>
