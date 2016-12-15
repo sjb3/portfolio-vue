@@ -1,8 +1,9 @@
 <template>
   <div id="gallery">
     <ul>
-      <li v-for="todo in todos">{{todo.img}}</li>
-
+      <li style="list-style-type:none" v-for="item in items">{{item.img}}
+      <img:src="{{item.img}}" />
+      </li>
     </ul>
   </div>
 </template>
@@ -11,16 +12,16 @@
   export default {
 
     name: 'gallery',
-    // var gallery = new Vue({
-    //   el: '#gallery',
-    //   data: {
-    //     todos: [
-    //       { img: url('../assets/mc/mc01.jpg')},
-    //     ]
-    //   }
-    // })
-  }
-</script
+    data() {
+      return {
+        // title: 'McQueen01',
+        items: [
+          { img: '../assets/mc/mc01.jpg'},
+        ]
+     }
+    }
+  };
+</script>
 
 <style>
 
