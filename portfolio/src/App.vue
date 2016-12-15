@@ -2,16 +2,18 @@
   <div id="app">
 
     <intro></intro>
+    <resume></resume>
   </div>
 </template>
 
 <script>
 import Intro from './components/Intro'
-
+import Resume from './components/Resume'
 export default {
   name: 'app',
   components: {
-    Intro
+    Intro,
+    Resume
   }
 }
 </script>
@@ -23,10 +25,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   margin-top: 10px;
-  background-color: black;
+  background-color: #bc8d8d;
 
-  h1, h2 {
-  color: #d34a4a
-}
+  /*h1, h2 {
+  color: #green;
+}*/
 }
 </style>

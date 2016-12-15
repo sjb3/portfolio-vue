@@ -4,6 +4,7 @@ import Vue from 'vue';
 import App from './App';
 import VueRouter from 'vue-router';
 import Intro from './components/Intro';
+import Resume from './components/Resume';
 
 //use through middleware
 Vue.use(VueRouter);
@@ -12,7 +13,8 @@ const router = new VueRouter({
   mode: 'history',
   base: __dirname,
   routes: [
-    {path: '/', component: Intro}
+    {path: '/', component: Intro},
+    {path: '/resume', component: Resume}
   ]
 });
 
@@ -26,6 +28,7 @@ new Vue({
   <div id='app'>
     <ul>
       <li><router-link to="/">Intro</router-link></li>
+      <li><router-link to="/resume">Resume</router-link></li>
     </ul>
       <router-view></router-view>
   </div>

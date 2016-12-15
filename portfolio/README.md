@@ -1,6 +1,6 @@
 # Portfolio: Vue-Way
 
-adopted from Traversy Media(youTube Tut');
+adopted from Traversy Media and DevMarketer(youTube Tut');
 
 # portfolio - VueJs Way
 
