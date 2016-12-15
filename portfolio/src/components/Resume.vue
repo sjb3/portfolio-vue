@@ -1,7 +1,7 @@
 <template>
 <div class="resume">
 
-  <h1 id="name">Justin Byun</h1>
+  <h1 v-cloak>Justin Byun</h1>
   <h2 class="title"><em>Full-Stack Software Engineer</em></h2></br>
 
   <h3 class="manifesto"><em>As a former Biotech Researcher, </br>I learned the beauty of analytical skills and value of critical thinking: the artistry of science.
@@ -75,4 +75,9 @@
   .resume {
       opacity: 0.5;
   }
+
+  [v-cloak] {
+   background-color:yellow;
+  }
+
 </style>
